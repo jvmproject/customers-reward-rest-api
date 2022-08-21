@@ -19,7 +19,7 @@ Response
 }
 ```
 
-## Add Transaction
+## Add Transaction with based on customer id
 ```
 localhost:8088/transaction/customerid/2
 Body
@@ -40,7 +40,7 @@ Response
 }
 ```
 
-## All Cutomer data with Transaction
+## Display all cutomer data with Transaction
 ```
 localhost:8088/customer/
 
@@ -107,7 +107,7 @@ Response
     }
 ]
 ```
-## Filder Data based on last month
+## Filter Data based on last month
 
 ```
 localhost:8088/customer/1/bymonth/3
